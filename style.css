@@ -1,0 +1,31 @@
+h2 {
+    border: solid 1px black;
+}
+/* 
+/* PERMAINAN GRID 
+.item1 {grid-area: header;}
+.item2 {grid-area: menu;}
+.item3 {grid-area: main;}
+.item4 {grid-area: right;}
+.item5 {grid-area: footer;}
+
+.grid-container {
+    display: grid;
+    grid-template-areas: 
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+    gap: 5px;
+    background-color: rgb(23, 149, 187);
+    padding: 5px;
+}
+
+.grid-container > div {
+    color: white;
+    background-color: rgb(54, 52, 52);
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+}
+PERMAINAN GRID END */
+
